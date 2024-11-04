@@ -1,1 +1,73 @@
-..
+<html>						
+
+<head>							  
+
+</head>
+
+<body>
+<script src="script.js"></script>
+
+<div>
+  MAIN PAGE
+</div>
+
+<div>
+  <button onclick="showit('d1')">Div1</button>
+  <button onclick="showit('d2')">Div2</button>
+  <button onclick="showit('d3')">Div3</button>
+  <button onclick="showit('d4')">Div4</button>
+ </div>
+ 
+ <div id="d1" style="display:block">
+   <div class="box red">
+    WELCOME
+     <br>
+     
+     <input id="myinput" type="color" />
+
+      <button onclick="getvalue()">CLICK ME</button>
+<br>
+      <div id="valuediv">CHOOSE A COLOR!</div>
+   </div>
+  </div>
+  
+  <div id="d2" style="display:none">
+   <div class="box blue">
+   <h2>The Leading Colors of America</h2>
+
+<p>Examples as follows:</p>
+
+
+<ul class="mine">
+  <li>Blue</li>
+  <li>Red</li>
+  <li>White</li>
+</ul>
+   </div>
+  </div>
+  
+  <div id="d3" style="display:none">
+   <div class="box yellow">
+    <div class='image1 middle'>
+  <img src='https://knightathletics.com/images/2024/8/15/20240814_FB_Joseph_Woods_Jr._ZQ_0002_1_1.JPG?width=300'/>
+        </div>
+   </div>
+  </div>
+  
+  <div id="d4" style="display:none">
+   <div class="box green">
+   <input type="checkbox" id="id1" name="blue" value="blue">
+  <label for="blue"> Blue</label><br>
+  
+  <input type="checkbox" id="id2" name="red" value="red">
+  <label for="red"> Red</label><br>
+  
+  <input type="checkbox" id="id3" name="white" value="white">
+  <label for="white"> White</label><br>
+   </div>
+  </div>
+  
+
+</body>
+
+</html>
